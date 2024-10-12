@@ -1,0 +1,9 @@
+﻿<Application x:Class="Tutorial_10___Open_File_Dialog__file_picker_.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Tutorial_10___Open_File_Dialog__file_picker_"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

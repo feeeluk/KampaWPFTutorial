@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 08 - Data Binding"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 09 - Message Box", "Tutorial 09 - Message Box\Tutorial 09 - Message Box.csproj", "{A8B204DB-A300-4A4B-8AC9-FBEF44DB5EFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 10 - Open File Dialog (file picker)", "Tutorial 10 - Open File Dialog (file picker)\Tutorial 10 - Open File Dialog (file picker).csproj", "{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 11 - Folder Browser Dialog", "Tutorial 11 - Folder Browser Dialog\Tutorial 11 - Folder Browser Dialog.csproj", "{D6D8804C-68CA-4C93-A684-7A714796DAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{A8B204DB-A300-4A4B-8AC9-FBEF44DB5EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8B204DB-A300-4A4B-8AC9-FBEF44DB5EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8B204DB-A300-4A4B-8AC9-FBEF44DB5EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
