@@ -3,11 +3,10 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <RootNamespace>Tutorial_11___Folder_Browser_Dialog</RootNamespace>
+    <RootNamespace>Tutorial_14___StackPanel</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UseWPF>True</UseWPF>
-    <UseWindowsForms>False</UseWindowsForms>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
 
 </Project>

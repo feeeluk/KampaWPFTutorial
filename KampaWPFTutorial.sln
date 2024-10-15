@@ -11,13 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 04 - Code Behind",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 05 - Grid Basics", "Tutorial 05 - Grid Basics\Tutorial 05 - Grid Basics.csproj", "{5734DEC3-5B2C-476D-85D2-2D5B2E005958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 08 - Data Binding", "Tutorial 08 - Data Binding\Tutorial 08 - Data Binding.csproj", "{0BBB528F-EF98-4655-A4A1-D87EB70762D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 08 - Data Binding", "Tutorial 08 - Data Binding\Tutorial 08 - Data Binding.csproj", "{0BBB528F-EF98-4655-A4A1-D87EB70762D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 09 - Message Box", "Tutorial 09 - Message Box\Tutorial 09 - Message Box.csproj", "{A8B204DB-A300-4A4B-8AC9-FBEF44DB5EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 09 - Message Box", "Tutorial 09 - Message Box\Tutorial 09 - Message Box.csproj", "{A8B204DB-A300-4A4B-8AC9-FBEF44DB5EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 10 - Open File Dialog (file picker)", "Tutorial 10 - Open File Dialog (file picker)\Tutorial 10 - Open File Dialog (file picker).csproj", "{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 10 - Open File Dialog (file picker)", "Tutorial 10 - Open File Dialog (file picker)\Tutorial 10 - Open File Dialog (file picker).csproj", "{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 11 - Folder Browser Dialog", "Tutorial 11 - Folder Browser Dialog\Tutorial 11 - Folder Browser Dialog.csproj", "{D6D8804C-68CA-4C93-A684-7A714796DAAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 11 - Folder Browser Dialog", "Tutorial 11 - Folder Browser Dialog\Tutorial 11 - Folder Browser Dialog.csproj", "{EBF145EE-95B3-468E-B6CB-2BE1443F434B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 12 - ListView", "Tutorial 12 - ListView\Tutorial 12 - ListView.csproj", "{3A23B5C6-75B4-4B16-9877-5F83E612947F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 13 - ListView 2", "Tutorial 13 - ListView 2\Tutorial 13 - ListView 2.csproj", "{288B0506-3C81-40CB-928A-2BDD138CB5B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 14 - StackPanel", "Tutorial 14 - StackPanel\Tutorial 14 - StackPanel.csproj", "{2D808A90-4E5D-4DAD-B97B-D19908F55E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 15 - GridSplitter", "Tutorial 15 - GridSplitter\Tutorial 15 - GridSplitter.csproj", "{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +61,26 @@ Global
 		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22EC65EA-D0ED-4DCC-A6E7-8929978198F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6D8804C-68CA-4C93-A684-7A714796DAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF145EE-95B3-468E-B6CB-2BE1443F434B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF145EE-95B3-468E-B6CB-2BE1443F434B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF145EE-95B3-468E-B6CB-2BE1443F434B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF145EE-95B3-468E-B6CB-2BE1443F434B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A23B5C6-75B4-4B16-9877-5F83E612947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A23B5C6-75B4-4B16-9877-5F83E612947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A23B5C6-75B4-4B16-9877-5F83E612947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A23B5C6-75B4-4B16-9877-5F83E612947F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288B0506-3C81-40CB-928A-2BDD138CB5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288B0506-3C81-40CB-928A-2BDD138CB5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288B0506-3C81-40CB-928A-2BDD138CB5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288B0506-3C81-40CB-928A-2BDD138CB5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D808A90-4E5D-4DAD-B97B-D19908F55E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D808A90-4E5D-4DAD-B97B-D19908F55E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D808A90-4E5D-4DAD-B97B-D19908F55E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D808A90-4E5D-4DAD-B97B-D19908F55E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

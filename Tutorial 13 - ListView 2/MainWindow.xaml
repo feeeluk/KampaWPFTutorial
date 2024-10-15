@@ -1,0 +1,78 @@
+﻿<Window x:Class="Tutorial_13___ListView_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial_13___List_View_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBox
+            x:Name="tbEntry"
+            Grid.Row="0"
+            Grid.Column="0"
+            Width="350"
+            Height="40"
+            FontSize="20"
+            Padding="5"/>
+
+        <Button
+            x:Name="btnAdd"
+            Grid.Row="0"
+            Grid.Column="1"
+            Content="Add"
+            Width="100"
+            Height="40"
+            FontSize="20"
+            Click="btnAdd_Click"
+            HorizontalAlignment="Left"
+            />
+
+        <Button
+            x:Name="btnDelete"
+            Grid.Row="0"
+            Grid.Column="1"
+            Content="Delete"
+            Width="100"
+            Height="40"
+            FontSize="20"
+            Click="btnDelete_Click"
+            HorizontalAlignment="Left"
+            Margin="110 0 0 0"
+            />
+
+        <Button
+            x:Name="btnClear"
+            Grid.Row="0"
+            Grid.Column="1"
+            Content="Clear"
+            Width="100"
+            Height="40"
+            FontSize="20"
+            Click="btnClear_Click"
+            HorizontalAlignment="Left"
+            Margin="220 0 0 0"
+            />
+
+
+
+        <ListView
+            x:Name="lvEntries"
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            SelectionMode="Single"
+            ItemsSource="{Binding Entries}">
+        </ListView>
+
+    </Grid>
+</Window>
