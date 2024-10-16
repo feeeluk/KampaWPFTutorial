@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="hidden">
+            <StackPanel>
+                <TextBox Height="30" Width="200" Margin="5" />
+                <TextBox Height="30" Width="200" Margin="5" />
+                <TextBox Height="30" Width="200" Margin="5" />
+                <TextBox Height="30" Width="200" Margin="5" />
+            </StackPanel>
+        </ScrollViewer>
 
     </Grid>
 </Window>

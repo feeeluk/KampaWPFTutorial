@@ -1,0 +1,29 @@
+﻿<Window x:Class="Tutorial_18___Custom_Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial_18___Custom_Windows"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Title="MainWindow" Height="450" Width="800">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0" />
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Button x:Name="btnMinimize" Content="_" Foreground="Brown" Background="Transparent" BorderThickness="0" Height="20" Width="20" Click="btnMinimize_Click"/>
+
+            <Button x:Name="btnMaximize" Content="🗖" Foreground="Brown" Background="Transparent" BorderThickness="0" Height="20" Width="20" Click="btnMaximize_Click"/>
+
+            <Button x:Name="btnClose" Content="X" Foreground="Brown" Background="Transparent" BorderThickness="0" Height="20" Width="20" Click="btnClose_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

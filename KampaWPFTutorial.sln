@@ -31,6 +31,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 16 - Expander", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 17 - ScrollViewer", "Tutorial 17 - ScrollViewer\Tutorial 17 - ScrollViewer.csproj", "{7586005E-AD0F-443B-B9A7-00E4B8F82329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 18 - Custom Windows", "Tutorial 18 - Custom Windows\Tutorial 18 - Custom Windows.csproj", "{DF7C4C53-3B0F-4C22-8892-7509238B8C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 19 - Opening Windows", "Tutorial 19 - Opening Windows\Tutorial 19 - Opening Windows.csproj", "{DD63010B-1261-4F2A-A13F-D947582676A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 20 - Reusable Styles", "Tutorial 20 - Reusable Styles\Tutorial 20 - Reusable Styles.csproj", "{E69A9D87-E017-43C5-8313-649F85D9E714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +99,18 @@ Global
 		{7586005E-AD0F-443B-B9A7-00E4B8F82329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7586005E-AD0F-443B-B9A7-00E4B8F82329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7586005E-AD0F-443B-B9A7-00E4B8F82329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7C4C53-3B0F-4C22-8892-7509238B8C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7C4C53-3B0F-4C22-8892-7509238B8C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7C4C53-3B0F-4C22-8892-7509238B8C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7C4C53-3B0F-4C22-8892-7509238B8C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD63010B-1261-4F2A-A13F-D947582676A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD63010B-1261-4F2A-A13F-D947582676A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD63010B-1261-4F2A-A13F-D947582676A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD63010B-1261-4F2A-A13F-D947582676A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69A9D87-E017-43C5-8313-649F85D9E714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69A9D87-E017-43C5-8313-649F85D9E714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69A9D87-E017-43C5-8313-649F85D9E714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69A9D87-E017-43C5-8313-649F85D9E714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
