@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" >
+            <TextBlock FontSize="20" Text="Name"/>
+            <Expander Header="More details">
+                <TextBlock FontSize="20" Text="Description"/>
+            </Expander>
+            <Button x:Name="btnDetails" Width="120" Height="30" Content="Expand / Collapse" Click="Button_Click" HorizontalAlignment="Left"/>
+        </StackPanel>
+
+        <Expander x:Name="expanderDetails" Grid.Column="1" ExpandDirection="Left" Background="green" BorderThickness="0">
+            <Rectangle
+                Fill="Green"
+                Width="125"/>
+        </Expander>
 
     </Grid>
 </Window>

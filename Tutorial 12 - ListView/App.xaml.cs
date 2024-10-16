@@ -2,11 +2,8 @@
 using System.Data;
 using System.Windows;
 
-namespace Tutorial_12___List_View
+namespace Tutorial_12___ListView
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
     }

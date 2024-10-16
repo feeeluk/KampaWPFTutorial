@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Tutorial_15___Expander
+namespace Tutorial_16___Expander
 {
     /// <summary>
     /// Interaction logic for App.xaml
