@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 14 - StackPanel", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 15 - GridSplitter", "Tutorial 15 - GridSplitter\Tutorial 15 - GridSplitter.csproj", "{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 16 - Expander", "Tutorial 16 - Expander\Tutorial 16 - Expander.csproj", "{2E7D2CCA-D633-49AD-BDC5-B2440EF248DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC09F71D-E721-42AA-98B6-1DD5133E0BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7D2CCA-D633-49AD-BDC5-B2440EF248DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7D2CCA-D633-49AD-BDC5-B2440EF248DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7D2CCA-D633-49AD-BDC5-B2440EF248DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7D2CCA-D633-49AD-BDC5-B2440EF248DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
